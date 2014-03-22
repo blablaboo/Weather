@@ -1,18 +1,18 @@
 //
-//  WRMainViewController.m
+//  WRSettingViewController.m
 //  Weather
 //
-//  Created by 罗 建镇 on 14-3-20.
+//  Created by 罗 建镇 on 14-3-22.
 //  Copyright (c) 2014年 Luo Jianzhen. All rights reserved.
 //
 
-#import "WRMainViewController.h"
+#import "WRSettingViewController.h"
 
-@interface WRMainViewController ()
+@interface WRSettingViewController ()
 
 @end
 
-@implementation WRMainViewController
+@implementation WRSettingViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,8 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.navigationController.navigationBar removeFromSuperview];
-    NSLog(@"this is a github test");
     // Do any additional setup after loading the view from its nib.
 }
 

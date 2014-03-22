@@ -27,6 +27,8 @@
 		8D42A1CF18DAE74400A77C02 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42A1CC18DAE74300A77C02 /* libMobClickLibrary.a */; };
 		8D42A1D018DAE74400A77C02 /* libMobClickLibrary_armv6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42A1CD18DAE74300A77C02 /* libMobClickLibrary_armv6.a */; };
 		8D42A1D418DAE82A00A77C02 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D42A1D318DAE82A00A77C02 /* libz.dylib */; };
+		8D79F87418DD73D3008992E6 /* WRSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D79F87218DD73D3008992E6 /* WRSettingViewController.m */; };
+		8D79F87518DD73D3008992E6 /* WRSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D79F87318DD73D3008992E6 /* WRSettingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,9 @@
 		8D42A1D318DAE82A00A77C02 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		8D42A1D518DAE86600A77C02 /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
 		8D42A1D618DAE9A900A77C02 /* Etys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Etys.h; sourceTree = "<group>"; };
+		8D79F87118DD73D3008992E6 /* WRSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRSettingViewController.h; sourceTree = "<group>"; };
+		8D79F87218DD73D3008992E6 /* WRSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRSettingViewController.m; sourceTree = "<group>"; };
+		8D79F87318DD73D3008992E6 /* WRSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WRSettingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +184,9 @@
 		8D42A1AD18DAD63700A77C02 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8D79F87118DD73D3008992E6 /* WRSettingViewController.h */,
+				8D79F87218DD73D3008992E6 /* WRSettingViewController.m */,
+				8D79F87318DD73D3008992E6 /* WRSettingViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -324,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D42A1BE18DAD7F500A77C02 /* Default@2x.png in Resources */,
+				8D79F87518DD73D3008992E6 /* WRSettingViewController.xib in Resources */,
 				8D42A18718DAD4FE00A77C02 /* InfoPlist.strings in Resources */,
 				8D42A1BC18DAD7F500A77C02 /* Default-568h@2x.png in Resources */,
 				8D42A1B618DAD65500A77C02 /* WRMainViewController.xib in Resources */,
@@ -349,6 +358,7 @@
 			files = (
 				8D42A18918DAD4FE00A77C02 /* main.m in Sources */,
 				8D42A18D18DAD4FE00A77C02 /* WRAppDelegate.m in Sources */,
+				8D79F87418DD73D3008992E6 /* WRSettingViewController.m in Sources */,
 				8D42A1B518DAD65500A77C02 /* WRMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,6 +566,7 @@
 				8D42A1A718DAD4FF00A77C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D42A1A818DAD4FF00A77C02 /* Build configuration list for PBXNativeTarget "WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +575,7 @@
 				8D42A1AA18DAD4FF00A77C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
